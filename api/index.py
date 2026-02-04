@@ -245,15 +245,13 @@ index_tpl = """
     <div class="card">
       <div class="card-inner">
         <h1>HeartGram</h1>
-        <p class="tagline">When Cupid forgets CSRF tokens.</p>
+        <p class="tagline">Cupids Latest New Hype App.</p>
         <p>
-          Discover how a harmless‑looking Valentine turns into a cross‑site
-          request forgery. Your goal: make the victim’s browser send the
-          perfect number of hearts to a mysterious admirer.
+          Discover how you could make this valentines week a bit better. Share hearts with people to spread love, but dont get too caught up.
+          You soon will realize that theres something suspcious about this app. Cupid sends his love XOXO, join up to start the fun!
         </p>
         <p>
-          Hidden in the source is everything you need: credentials, clues,
-          and a tiny push toward mischief.
+          Hidden somewhere theres a tiny push toward mischief. Dont get tangled up in his mess.
         </p>
         <div class="cta-row">
           <a class="btn-primary" href="{{ url_for('login') }}">
@@ -434,6 +432,7 @@ login_tpl = """
   {% endif %}
   <p class="hint">
     Please sign in to send or receive Valentines.
+    Username and Password is all lowercase. 
   </p>
 </div>
 </body>
@@ -1111,3 +1110,4 @@ def logout():
 # if __name__ == "__main__":
 
 #     app.run(debug=True)
+
