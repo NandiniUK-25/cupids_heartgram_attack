@@ -260,7 +260,7 @@ index_tpl = """
           </a>
         </div>
         <div class="metrics">
-            View page source on the login screen to begin your investigation.
+            Click the button above to share some love!
         </div>
       </div>
     </div>
@@ -1110,4 +1110,5 @@ def logout():
 # if __name__ == "__main__":
 
 #     app.run(debug=True)
+
 
