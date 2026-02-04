@@ -8,7 +8,7 @@ app.secret_key = "super-secret-valentine"
 users = {
     "victim": {
         "password": "heartbroken",
-        "hearts": 100,  # victim starts with 100 hearts
+        "hearts": 100,  
         "bio": "Just hoping for a real Valentine this year.",
         "flag": None,
     },
@@ -278,7 +278,6 @@ index_tpl = """
           What happens when that button lives on a different site?”
         </div>
         <div class="phone-footer">
-          <span>CSRF in practice</span>
           <div class="phone-chip">💘</div>
         </div>
       </div>
@@ -1110,4 +1109,5 @@ def logout():
     return redirect(url_for("login"))
 
 # if __name__ == "__main__":
+
 #     app.run(debug=True)
